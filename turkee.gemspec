@@ -3,12 +3,12 @@ $:.push File.expand_path("../lib", __FILE__)
 
 Gem::Specification.new do |s|
   s.name = %q{turkee}
-  s.version = "2.0.2"
+  s.version = "2.0.3"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = [%q{Jim Jones}]
-  s.date = %q{2013-05-14}
-  s.description = %q{Turkee will help you to easily create usability studies, post HITs, and retrieve the user entered values from Mechanical Turk.}
+  s.date = %q{2014-09-19}
+  s.description = %q{Forked version of Turkee by Jim Jones, republished as a gem for use in Rails 4 engines}
   s.email = %q{jjones@aantix.com}
   s.extra_rdoc_files = [
     "LICENSE",
@@ -19,7 +19,7 @@ Gem::Specification.new do |s|
   s.test_files    = `git ls-files -- {spec}/*`.split("\n")
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
 
-  s.homepage = %q{http://github.com/aantix/turkee}
+  s.homepage = %q{https://github.com/DubitPlatform/turkee}
   s.post_install_message = %q{
   ========================================================================
   Turkee Installation Complete.
